@@ -1,0 +1,103 @@
+scanner:
+  target_season: "Summer 2027"
+  request_timeout_seconds: 20
+  request_delay_seconds: 1.0
+  user_agent: "Summer2027-Internship-Scanner/1.0 (personal educational project)"
+  google_queries_per_run: 6
+
+locations:
+  accepted_keywords:
+    - new york
+    - new york city
+    - nyc
+    - manhattan
+    - brooklyn
+    - queens
+    - bronx
+    - staten island
+    - long island
+    - floral park
+    - nassau county
+    - westchester
+    - jersey city
+    - hoboken
+    - newark
+    - remote
+
+preferred_keywords:
+  - mechanical engineering
+  - mechanical engineer
+  - mechanical design
+  - robotics
+  - robot
+  - manufacturing engineering
+  - manufacturing engineer
+  - manufacturing
+  - mechatronics
+  - automation
+  - product design
+  - hardware engineering
+  - test engineering
+  - aerospace engineering
+  - systems engineering
+
+other_engineering_keywords:
+  - engineering intern
+  - engineering internship
+  - engineering co-op
+  - engineering coop
+
+reject_keywords:
+  - senior standing required
+  - seniors only
+  - senior only
+  - graduate students only
+  - graduate student required
+  - master's required
+  - masters required
+  - phd required
+  - doctoral required
+
+search_queries:
+  - '"Summer 2027" "mechanical engineering intern" ("New York" OR NYC OR remote)'
+  - '"Summer 2027" "mechanical engineer intern" (NYC OR "Long Island" OR remote)'
+  - '"Summer 2027" "robotics intern" ("New York" OR NYC OR remote)'
+  - '"Summer 2027" "robotics engineering intern" (NYC OR remote)'
+  - '"Summer 2027" "manufacturing engineering intern" ("New York" OR remote)'
+  - '"Summer 2027" "manufacturing intern" (NYC OR "Long Island" OR remote)'
+  - '"Summer 2027" "mechatronics intern" ("New York" OR remote)'
+  - '"Summer 2027" "mechanical design intern" (NYC OR remote)'
+  - '"Summer 2027" "hardware engineering intern" (NYC OR remote)'
+  - '"Summer 2027" "product design intern" engineering (NYC OR remote)'
+  - '"Summer 2027" "automation engineering intern" (NYC OR remote)'
+  - '"Summer 2027" "test engineering intern" mechanical (NYC OR remote)'
+  - '"Summer 2027" "aerospace engineering intern" (NYC OR remote)'
+  - '"Summer 2027" "engineering intern" mechanical (Queens OR Brooklyn OR Manhattan)'
+  - '"Summer 2027" "engineering internship" robotics ("Long Island" OR NYC)'
+  - '"Summer 2027 internship" mechanical site:jobs.lever.co ("New York" OR remote)'
+  - '"Summer 2027 internship" robotics site:boards.greenhouse.io ("New York" OR remote)'
+  - '"Summer 2027" internship manufacturing engineering "New York"'
+
+# Add public crowdsourced list URLs here as 2027 lists appear. The parser accepts raw
+# Markdown URLs and normal GitHub blob URLs. Keeping this empty is safe.
+github_lists: []
+
+companies:
+  - {name: Boeing, careers_url: "https://jobs.boeing.com/"}
+  - {name: General Motors, careers_url: "https://search-careers.gm.com/"}
+  - {name: Ford, careers_url: "https://efds.fa.em5.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"}
+  - {name: Tesla, careers_url: "https://www.tesla.com/careers/search/"}
+  - {name: Boston Dynamics, careers_url: "https://bostondynamics.com/careers/"}
+  - {name: Siemens, careers_url: "https://jobs.siemens.com/careers"}
+  - {name: Honeywell, careers_url: "https://careers.honeywell.com/"}
+  - {name: L3Harris, careers_url: "https://careers.l3harris.com/"}
+  - {name: Northrop Grumman, careers_url: "https://www.northropgrumman.com/careers"}
+  - {name: Anduril, careers_url: "https://www.anduril.com/open-roles/"}
+  - {name: Caterpillar, careers_url: "https://careers.caterpillar.com/"}
+  - {name: John Deere, careers_url: "https://jobs.deere.com/"}
+  - {name: RTX/Raytheon, careers_url: "https://careers.rtx.com/"}
+  - {name: GE Aerospace, careers_url: "https://careers.geaerospace.com/global/en"}
+  - {name: Lockheed Martin, careers_url: "https://www.lockheedmartinjobs.com/"}
+  - {name: Stanley Black & Decker, careers_url: "https://www.stanleyblackanddecker.com/careers"}
+  - {name: Emerson, careers_url: "https://www.emerson.com/en-us/careers"}
+  - {name: Parker Hannifin, careers_url: "https://parkercareers.ttcportals.com/"}
